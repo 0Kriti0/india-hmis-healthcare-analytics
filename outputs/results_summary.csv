@@ -1,0 +1,15 @@
+Model,Target / purpose,Metric,Value,Note
+1 Multiple Linear Regression,Institutional delivery %,Test R2,0.279,training-mean baseline test R2 = -0.003
+2 Logistic Regression,High LBW district,Test accuracy / AUC,0.587,AUC 0.634; baseline acc 0.509
+3 k-Nearest Neighbours,High C-section district,Test accuracy / AUC,0.784,AUC 0.862; baseline acc 0.542; k=15
+"4a Decision Tree (fully grown, baseline)",High reported IMR,Test accuracy / AUC,0.65,AUC 0.647; train acc 1.000
+4b Random Forest,High reported IMR,Test accuracy / AUC,0.729,AUC 0.802; CV AUC 0.794
+5 K-Means,District-year service-delivery profiles (unsupervised),Silhouette,0.233,k = 2
+6 PCA (technique),Structure of indicators,Variance in PC1+PC2,0.546,5 PCs for 80%
+1 Multiple Linear Regression,Institutional delivery %,Test R2,0.279,baseline R2 = 0
+2 Logistic Regression,High LBW district,Test accuracy / AUC,0.587,AUC 0.634; baseline acc 0.509
+3 k-Nearest Neighbours,High C-section district,Test accuracy / AUC,0.784,AUC 0.862; baseline acc 0.542; k=15
+"4a Decision Tree (fully grown, baseline)",High reported IMR,Test accuracy / AUC,0.65,AUC 0.647; train acc 1.000
+4b Random Forest,High reported IMR,Test accuracy / AUC,0.729,AUC 0.802; CV AUC 0.795
+5 K-Means,District types (unsupervised),Silhouette,0.214,k = 6
+6 PCA (technique),Structure of indicators,Variance in PC1+PC2,0.546,5 PCs for 80%
